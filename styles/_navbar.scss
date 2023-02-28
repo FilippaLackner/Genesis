@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+
+.navbar {
+    
+    &__logo {
+        display:flex;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    &__menu {
+        font-family: $header-font;
+        font-size: $header-size;
+        line-height: 23px;
+        line-height: 100%;
+        letter-spacing: -0.35px;
+        color: #111111;
+        display:flex;
+        justify-content: flex-end;
+
+    }
+}
+
+
