@@ -1,0 +1,40 @@
+/*header&nav styles*/
+/*main styles here*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navbar__menu {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+  color: #111111;
+  display: flex;
+  cursor: pointer;
+}
+.navbar__menu__list {
+  padding: 20px;
+  list-style-type: none;
+}
+.navbar__menu__list a {
+  color: #111111;
+  font-size: 18px;
+}
+
+/*.navbar__menu__list{
+    padding:20px;
+    list-style-type: none;
+}
+
+.navbar__menu__list a{
+    color:var.$header-color;
+    font-size: 18px;
+
+}*/
+/*# sourceMappingURL=_navbar.css.map */

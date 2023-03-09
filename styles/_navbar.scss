@@ -1,25 +1,50 @@
-@import 'variables';
+@use 'var';
 
 
 
 .navbar {
-    
+    display:flex;
+    justify-content:space-between;
+
     &__logo {
-        display:flex;
+        
         margin-left:20px;
         margin-top:20px;
     }
     &__menu {
-        font-family: $header-font;
-        font-size: $header-size;
+        font-family: var.$header-font;
+        font-size: var.$header-size;
         line-height: 23px;
         line-height: 100%;
         letter-spacing: -0.35px;
-        color: #111111;
+        color:var.$black;
         display:flex;
-        justify-content: flex-end;
-
+        cursor: pointer;
     }
+
+
+    &__menu__list{
+        padding:20px;
+        list-style-type: none;
+    }
+
+    &__menu__list a{
+        color:var.$black;
+        font-size: 18px;
+    }
+    
 }
+
+/*.navbar__menu__list{
+    padding:20px;
+    list-style-type: none;
+}
+
+.navbar__menu__list a{
+    color:var.$header-color;
+    font-size: 18px;
+   
+}*/
+
 
 
