@@ -1,7 +1,7 @@
 @use 'var';
-@use 'mixin';
+@use 'mixins';
 
-
+/* tried import instead of @use /*
 
 /*styling for index main starts here*/
 
@@ -24,7 +24,7 @@
     font-size: 22px;
     line-height: 27.61px;
     letter-spacing: -0.42px;
-    color:var.$blue;
+    color: var.$blue;
     
     
 }
@@ -38,9 +38,6 @@
  
 }
 
-.grid__image{
-    
-}
 
 /*.grid__container {
     width:100%;
@@ -57,6 +54,7 @@
     max-width:1079px;
     width:100%;
     max-height:106px;
+    display:flex;
     }
 
     &__text{
@@ -75,14 +73,14 @@
    /* @include list_style; */
 
     font-family: var.$list-font;
-    color: red;
+    color: pink;
     opacity:60%; 
     list-style-type: none;
 
 }
 .list{
     font-family: var.$list-font;
-    color: red;
+    color: var.$black;
     opacity:60%; 
     list-style-type: none;
 }
